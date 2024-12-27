@@ -1,8 +1,7 @@
 // @ts-ignore
-import express from 'express'
-import cors from 'cors';
+import express, {Request, Response} from 'express'
+const cors = require('cors');
 import {taxonomyRouter} from "./taxonomy/taxonomy.controller";
-import exp = require("constants");
 const app = express();
 app.use(cors());
 app.use(express.json())

@@ -1,3 +1,5 @@
+
+
 # Kiosk Full-stack case study
 Thanks for applying at Kiosk!
 
@@ -65,3 +67,27 @@ As an indication, here is our stack:
 - TypeScript
 - Express
 - React
+
+
+# Installation & Running
+- Clone the project
+- To start the backend: 
+```bash
+cd backend
+npx tsc server.ts
+```
+- To start the frontend:
+```bash
+cd frontend/frontend
+npm run dev
+```
+
+### What works:
+- CSV to Tree algorithm
+- Sending POST request when clicking "Submit"
+- Displaying Topics, subtopics and questions related to topics
+
+### What could be improved:
+- UI
+- Displaying different Input (Textarea, Pills, Selector) according to the question.
+
